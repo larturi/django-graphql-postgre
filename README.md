@@ -12,9 +12,12 @@
 
 ### 🐍 Create and activate the virtual environment
 `python3 -m venv venv`
+
 `source venv/bin/activate`
 
-### 🐳 Create and start the container `docker-compose build`
+### 🐳 Create and start the container 
+`docker-compose build`
+
 `docker-compose up`
 
 <br/>
