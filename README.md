@@ -14,7 +14,7 @@
 
 ### `source venv/bin/activate`
 
-### `pip install`
+### `pip install fastapi uvicorn sqlalchemy graphene graphene-sqlalchemy alembic psycopg2-binary black python-dotenv`
 
 ### `docker-compose build`
 
