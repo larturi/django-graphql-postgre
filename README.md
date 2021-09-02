@@ -10,14 +10,12 @@
 
 ## 🚀 Quick start
 
+### Create and activate the virtual environment
 ### `python3 -m venv venv`
-
 ### `source venv/bin/activate`
 
-### `pip install fastapi uvicorn sqlalchemy graphene graphene-sqlalchemy alembic psycopg2-binary black python-dotenv`
-
+### Create ans start the container
 ### `docker-compose build`
-
 ### `docker-compose up`
 
 <br/><br/>
@@ -75,3 +73,6 @@ query {
   }
 }
 ```
+
+If you have problems with the dependencies:
+`pip install fastapi uvicorn sqlalchemy graphene graphene-sqlalchemy alembic psycopg2-binary black python-dotenv`
