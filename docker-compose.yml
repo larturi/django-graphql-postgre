@@ -1,5 +1,4 @@
 version: "3.8"
-
 services: 
 
   db:
@@ -29,5 +28,6 @@ services:
       - .:/app
     ports: 
       - 8000:8000
+    restart: always
     depends_on: 
       - db
