@@ -24,6 +24,15 @@
 
 ## 🚀 Panel Postgre Admin
 http://127.0.0.1:5050
+- admin@admin.com
+- admin
+
+### 🚀 Conection in Panel Postgre Admin
+- Add new server
+- Name: db
+- Port: 5432
+- User: postgres
+- Password: asdf1234$
 
 ## 🚀 API GraphQL
 http://127.0.0.1:8000/graphql
